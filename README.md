@@ -8,3 +8,6 @@
 **High Level Design of the Project**
 
 ![High Level Design](src/High-Level-Design.png)
+
+**Schema of the Notification Service**
+
