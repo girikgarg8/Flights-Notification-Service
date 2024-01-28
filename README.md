@@ -7,17 +7,18 @@
 
 **High Level Design of the Project**
 
-![High Level Design](src/High-Level-Design.png)
+![High Level Design](/High-Level-Design.png)
 
 **Schema of the Notification Service**
 
+![Notification Service Schema](./Flights-Notification-Schema.PNG)
 
-**High level flow of the project**
+**Some of the screenshots from this service are as follows:**
 
-We set up mailing service by using the nodemailer package. We identified and implemented the schema for the 'Tickets' models. We set up business logic to find all pending email tickets. We run a a cron job to check for all tickets in PENDING state and initiate an email to the recipients. 
+1. RabbitMQ Management Console, which shows details like message send rate, consumer details, consumer ACK rates etc.
 
-**Some of the screenshots from this service are**
+![RabbitMQ Management Console](/RabbitMQ_Console.PNG)
 
-1. Nodemailer successfully sent the email:
+2. Booking confirmation sent to the user on successful booking:
 
-![Nodemailer sending email](src/Nodemailer-sending-email.PNG)
+![Booking Confirmation](/Email-on-successful-booking.PNG)
