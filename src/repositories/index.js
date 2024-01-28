@@ -1,4 +1,3 @@
-module.exports={
-
-    
+module.exports = {
+    TicketRepository: require('./ticket-repository')
 }

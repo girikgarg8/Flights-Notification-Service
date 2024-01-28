@@ -1,5 +1,7 @@
-const InfoController= require('./info-controller');
+const InfoController = require('./info-controller');
+const EmailController = require('./email-controller');
 
-module.exports={
-    InfoController
+module.exports = {
+    InfoController,
+    EmailController
 }
