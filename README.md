@@ -18,4 +18,8 @@ We set up mailing service by using the nodemailer package. We identified and imp
 
 **Some of the screenshots from this service are**
 
-1. ![Nodemailer sending email](src/Nodemailer-sending-email.PNG)
+1. 
+
+Nodemailer successfully sent the email:
+
+![Nodemailer sending email](src/Nodemailer-sending-email.PNG)
