@@ -15,3 +15,7 @@
 **High level flow of the project**
 
 We set up mailing service by using the nodemailer package. We identified and implemented the schema for the 'Tickets' models. We set up business logic to find all pending email tickets. We run a a cron job to check for all tickets in PENDING state and initiate an email to the recipients. 
+
+**Some of the screenshots from this service are**
+
+1. ![Nodemailer sending email](src/Nodemailer-sending-email.PNG)
